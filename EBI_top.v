@@ -110,7 +110,7 @@ IOBUF i8 (
   blk_mem_gen_0 b1
    (
     .CLKa(CLK_in),
-	.ena(~CS),
+    .ena(~CS),
     .wea(wr_en),
     .addra(address),
     .dina(d_WRite),
